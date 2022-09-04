@@ -1,0 +1,133 @@
+header{
+    display: flex;
+    height: 50px;
+    background-color: aquamarine;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#reset{
+    display: flex;
+    width: 500px;
+    height: 30px;
+}
+
+.div{
+    width: 200px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 1px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.like{
+    border: none;
+    background-color: none;
+    cursor: pointer;
+}
+
+.choose{
+   color: red;
+   
+}
+
+.input{
+ 
+    border:1px solid grey;
+    background:white;
+    color:black;
+   display: flex;
+   cursor: pointer;
+}
+
+form {
+   
+    display:flex;
+    flex-direction:row;
+    border:1px solid grey;
+    padding:2px;
+  }
+  
+  input {
+    flex-grow:2;
+    border:none;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .cart{
+    background-color: aquamarine;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .buy{
+    cursor: pointer;
+  }
+  
+  .liked{
+    cursor: pointer;
+    background-color: aquamarine;
+    width: 40px;
+    height: 40px;
+  }
+
+  .fa-heart{
+   cursor: pointer;
+  }
+
+  .shoppingbasket{
+    position: absolute;
+    right: 50px;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(233, 250, 244);
+    display: none;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    top: 59px;
+    
+    
+  }
+
+  .likedbasket{
+    position: absolute;
+    right: 50px;
+    height: 500px;
+    width: 500px;
+    background-color: whitesmoke;
+    display: none;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    top: 59px;
+    
+  }
+  
+  .productdiv{
+    width: 1px;
+    height: 1px;
+
+  }
+
+  .show{
+   display: grid;
+  }
+  
+.delete{
+    width: 50px;
+    height: 20px;
+}

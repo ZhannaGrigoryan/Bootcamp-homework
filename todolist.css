@@ -1,0 +1,14 @@
+.done {
+    text-decoration: line-through;
+}
+img {
+  height: 20px;
+  width: 15px;
+}
+
+.div{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
